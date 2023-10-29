@@ -2055,10 +2055,13 @@
     <Content Include="Content\Admin\plugins\uplot\uPlot.iife.js" />
     <Content Include="Content\Admin\plugins\uplot\uPlot.iife.min.js" />
     <Content Include="Content\Admin\plugins\uplot\uPlot.min.css" />
+    <Content Include="Content\Banner\app.jpg" />
+    <Content Include="Content\Banner\apple.jfif" />
     <Content Include="Content\Banner\bn1.jpg" />
     <Content Include="Content\Banner\bn2.jfif" />
     <Content Include="Content\Banner\bn3.jfif" />
-    <Content Include="Content\Banner\tải xuống.jfif" />
+    <Content Include="Content\Banner\bn4.jfif" />
+    <Content Include="Content\Banner\ss.jpg" />
     <Content Include="Content\bootstrap-theme.css" />
     <Content Include="Content\bootstrap-theme.min.css" />
     <Content Include="Content\bootstrap.css" />
@@ -2133,6 +2136,17 @@
     <Content Include="Content\images\items\7.jpg" />
     <Content Include="Content\images\items\8.jpg" />
     <Content Include="Content\images\items\9.jpg" />
+    <Content Include="Content\images\items\iphone11.jpg" />
+    <Content Include="Content\images\items\iphone11promax.jfif" />
+    <Content Include="Content\images\items\iphone12.jfif" />
+    <Content Include="Content\images\items\iphone12promax.jfif" />
+    <Content Include="Content\images\items\iphone13.jfif" />
+    <Content Include="Content\images\items\iphone13promax.jpg" />
+    <Content Include="Content\images\items\samsunga33.jfif" />
+    <Content Include="Content\images\items\samsunga73.jfif" />
+    <Content Include="Content\images\items\samsungs21fe.jfif" />
+    <Content Include="Content\images\items\samsungs23.jpg" />
+    <Content Include="Content\images\items\samsungs23ultra.jfif" />
     <Content Include="Content\images\logo-white.png" />
     <Content Include="Content\images\logo.png" />
     <Content Include="Content\images\logo.svg" />
@@ -2143,6 +2157,7 @@
     <Content Include="Content\images\posts\2.jpg" />
     <Content Include="Content\images\posts\3.jpg" />
     <Content Include="Content\images\posts\4.jpg" />
+    <Content Include="Content\Site.css" />
     <Content Include="Context\dbModel.Context.tt">
       <Generator>TextTemplatingFileGenerator</Generator>
       <DependentUpon>dbModel.edmx</DependentUpon>
@@ -2156,22 +2171,19 @@
     <Content Include="favicon.ico" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
-    <Content Include="Content\Site.css" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
-    <Content Include="Content\css\.DS_Store" />
-    <Content Include="Content\css\bootstrap.css.map" />
-    <Content Include="Content\css\responsive.css.map" />
-    <Content Include="Content\css\ui.css.map" />
-    <Content Include="Content\images\.DS_Store" />
-    <Content Include="Content\images\banners\.DS_Store" />
-    <Content Include="Content\images\icons\.DS_Store" />
-    <Content Include="Content\images\items\.DS_Store" />
-    <Content Include="Content\images\posts\.DS_Store" />
     <Content Include="Areas\Admin\Views\web.config" />
     <Content Include="Areas\Admin\Views\_ViewStart.cshtml" />
     <Content Include="Areas\Admin\Views\Shared\_Layout.cshtml" />
     <Content Include="Areas\Admin\Views\Home\Index.cshtml" />
+    <EntityDeploy Include="Context\dbModel.edmx">
+      <Generator>EntityModelCodeGenerator</Generator>
+      <LastGenOutput>dbModel.Designer.cs</LastGenOutput>
+    </EntityDeploy>
+    <Content Include="Context\dbModel.edmx.diagram">
+      <DependentUpon>dbModel.edmx</DependentUpon>
+    </Content>
     <Content Include="Content\Admin\dist\css\adminlte.css.map" />
     <Content Include="Content\Admin\dist\css\adminlte.min.css.map" />
     <Content Include="Content\Admin\dist\css\alt\adminlte.components.css.map" />
@@ -2249,13 +2261,19 @@
     <Content Include="Content\Admin\plugins\summernote\summernote.js.map" />
     <Content Include="Content\Admin\plugins\summernote\summernote.min.js.map" />
     <Content Include="Content\Admin\plugins\toastr\toastr.js.map" />
-    <EntityDeploy Include="Context\dbModel.edmx">
-      <Generator>EntityModelCodeGenerator</Generator>
-      <LastGenOutput>dbModel.Designer.cs</LastGenOutput>
-    </EntityDeploy>
-    <Content Include="Context\dbModel.edmx.diagram">
-      <DependentUpon>dbModel.edmx</DependentUpon>
-    </Content>
+    <Content Include="Content\bootstrap-theme.css.map" />
+    <Content Include="Content\bootstrap-theme.min.css.map" />
+    <Content Include="Content\bootstrap.css.map" />
+    <Content Include="Content\bootstrap.min.css.map" />
+    <Content Include="Content\css\.DS_Store" />
+    <Content Include="Content\css\bootstrap.css.map" />
+    <Content Include="Content\css\responsive.css.map" />
+    <Content Include="Content\css\ui.css.map" />
+    <Content Include="Content\images\.DS_Store" />
+    <Content Include="Content\images\banners\.DS_Store" />
+    <Content Include="Content\images\icons\.DS_Store" />
+    <Content Include="Content\images\items\.DS_Store" />
+    <Content Include="Content\images\posts\.DS_Store" />
     <None Include="Scripts\jquery-3.4.1.intellisense.js" />
     <Content Include="Scripts\jquery-3.4.1.js" />
     <Content Include="Scripts\jquery-3.4.1.min.js" />
@@ -2299,10 +2317,6 @@
     <Content Include="fonts\glyphicons-halflings-regular.woff" />
     <Content Include="fonts\glyphicons-halflings-regular.ttf" />
     <Content Include="fonts\glyphicons-halflings-regular.eot" />
-    <Content Include="Content\bootstrap.min.css.map" />
-    <Content Include="Content\bootstrap.css.map" />
-    <Content Include="Content\bootstrap-theme.min.css.map" />
-    <Content Include="Content\bootstrap-theme.css.map" />
     <None Include="packages.config" />
     <Content Include="Scripts\jquery-3.4.1.slim.min.map" />
     <Content Include="Scripts\jquery-3.4.1.min.map" />
